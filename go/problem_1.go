@@ -10,5 +10,5 @@ func findPairWithSum(numbers []int, k int) bool {
 
 func main() {
 	fmt.Println(findPairWithSum([]int{10, 15, 3, 7}, 17))
-	fmt.Println(findPairWithSum("All tests passed"))
+	fmt.Println(findPairWithSum("All tests passed")).d
 }
