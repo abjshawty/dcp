@@ -53,6 +53,19 @@ Each folder is self-contained. Every problem is in its own file (e.g. `problem_7
 | 28 | Medium     | Palantir   | Text Justification                     | `algo/problem_28.md`         |
 | 29 | Easy       | Amazon     | Run-Length Encoding                    | `algo/problem_29.md`         |
 | 30 | Medium     | Facebook   | Trapping Rain Water                    | `algo/problem_30.md`         |
+| 31 | Easy       | Google     | Edit Distance                          | `algo/problem_31.md`         |
+| 32 | Hard       | Jane Street| Currency Arbitrage                     | `algo/problem_32.md`         |
+| 33 | Easy       | Microsoft  | Running Median                         | `algo/problem_33.md`         |
+| 34 | Medium     | Quora      | Minimum Palindrome Insertion           | `algo/problem_34.md`         |
+| 35 | Hard       | Google     | RGB Sort (Dutch National Flag)         | `algo/problem_35.md`         |
+| 36 | Medium     | Dropbox    | Second Largest in BST                  | `algo/problem_36.md`         |
+| 37 | Easy       | Google     | Power Set                              | `algo/problem_37.md`         |
+| 38 | Hard       | Microsoft  | N-Queens                               | `algo/problem_38.md`         |
+| 39 | Medium     | Dropbox    | Conway's Game of Life                  | `algo/problem_39.md`         |
+| 40 | Hard       | Google     | Single Number (others appear 3×)       | `algo/problem_40.md`         |
+| 41 | Medium     | Facebook   | Flight Itinerary (Eulerian Path)       | `algo/problem_41.md`         |
+| 42 | Hard       | Google     | Subset Sum                             | `algo/problem_42.md`         |
+| 43 | Easy       | Amazon     | Max Stack                              | `algo/problem_43.md`         |
 
 ---
 

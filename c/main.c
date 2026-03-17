@@ -28,6 +28,19 @@
 #include "problem_28.h"
 #include "problem_29.h"
 #include "problem_30.h"
+#include "problem_31.h"
+#include "problem_32.h"
+#include "problem_33.h"
+#include "problem_34.h"
+#include "problem_35.h"
+#include "problem_36.h"
+#include "problem_37.h"
+#include "problem_38.h"
+#include "problem_39.h"
+#include "problem_40.h"
+#include "problem_41.h"
+#include "problem_42.h"
+#include "problem_43.h"
 
 int main(void) {
     problem1();
@@ -60,5 +73,18 @@ int main(void) {
     problem28();
     problem29();
     problem30();
+    problem31();
+    problem32();
+    problem33();
+    problem34();
+    problem35();
+    problem36();
+    problem37();
+    problem38();
+    problem39();
+    problem40();
+    problem41();
+    problem42();
+    problem43();
     return 0;
 }

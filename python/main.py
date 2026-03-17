@@ -28,6 +28,19 @@ from problem_27 import main as problem27
 from problem_28 import main as problem28
 from problem_29 import main as problem29
 from problem_30 import main as problem30
+from problem_31 import main as problem31
+from problem_32 import main as problem32
+from problem_33 import main as problem33
+from problem_34 import main as problem34
+from problem_35 import main as problem35
+from problem_36 import main as problem36
+from problem_37 import main as problem37
+from problem_38 import main as problem38
+from problem_39 import main as problem39
+from problem_40 import main as problem40
+from problem_41 import main as problem41
+from problem_42 import main as problem42
+from problem_43 import main as problem43
 
 problem1()
 problem2()
@@ -59,3 +72,16 @@ problem27()
 problem28()
 problem29()
 problem30()
+problem31()
+problem32()
+problem33()
+problem34()
+problem35()
+problem36()
+problem37()
+problem38()
+problem39()
+problem40()
+problem41()
+problem42()
+problem43()

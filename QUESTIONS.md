@@ -413,3 +413,114 @@ Compute how many units of water remain trapped on the map in O(N) time and O(1) 
 For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+
+## Problem 31 - Easy (Google)
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between "kitten" and "sitting" is three: substitute the "k" for "s", substitute the "e" for "i", and append a "g".
+
+Given two strings, compute the edit distance between them.
+
+## Problem 32 - Hard (Jane Street)
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
+
+## Problem 33 - Easy (Microsoft)
+
+Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
+
+Recall that the median of an even-numbered list is the average of the two middle numbers.
+
+For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
+
+    2
+    1.5
+    2
+    3.5
+    2
+    2
+    2
+
+## Problem 34 - Medium (Quora)
+
+Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
+
+For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
+
+As another example, given the string "google", you should return "elgoogle".
+
+## Problem 35 - Hard (Google)
+
+Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+
+Do this in linear time and in-place.
+
+For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+## Problem 36 - Medium (Dropbox)
+
+Given the root to a binary search tree, find the second largest node in the tree.
+
+## Problem 37 - Easy (Google)
+
+The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
+
+For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}`.
+
+You may also use a list or array to represent a set.
+
+## Problem 38 - Hard (Microsoft)
+
+You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+
+## Problem 39 - Medium (Dropbox)
+
+Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
+
+- Any live cell with less than two live neighbours dies.
+- Any live cell with two or three live neighbours remains living.
+- Any live cell with more than three live neighbours dies.
+- Any dead cell with exactly three live neighbours becomes a live cell.
+
+A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
+
+Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
+
+You can represent a live cell with an asterisk (`*`) and a dead cell with a dot (`.`).
+
+## Problem 40 - Hard (Google)
+
+Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
+
+For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
+
+Do this in O(N) time and O(1) space.
+
+## Problem 41 - Medium (Facebook)
+
+Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary.
+
+For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
+
+Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
+
+Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+
+## Problem 42 - Hard (Google)
+
+Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
+
+Integers can appear more than once in the list. You may assume all numbers in the list are positive.
+
+For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+
+## Problem 43 - Easy (Amazon)
+
+Implement a stack that has the following methods:
+
+- `push(val)`, which pushes an element onto the stack
+- `pop()`, which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+- `max()`, which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
+Each method should run in constant time.
