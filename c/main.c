@@ -21,6 +21,13 @@
 #include "problem_21.h"
 #include "problem_22.h"
 #include "problem_23.h"
+#include "problem_24.h"
+#include "problem_25.h"
+#include "problem_26.h"
+#include "problem_27.h"
+#include "problem_28.h"
+#include "problem_29.h"
+#include "problem_30.h"
 
 int main(void) {
     problem1();
@@ -46,5 +53,12 @@ int main(void) {
     problem21();
     problem22();
     problem23();
+    problem24();
+    problem25();
+    problem26();
+    problem27();
+    problem28();
+    problem29();
+    problem30();
     return 0;
 }

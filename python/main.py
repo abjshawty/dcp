@@ -21,6 +21,13 @@ from problem_20 import main as problem20
 from problem_21 import main as problem21
 from problem_22 import main as problem22
 from problem_23 import main as problem23
+from problem_24 import main as problem24
+from problem_25 import main as problem25
+from problem_26 import main as problem26
+from problem_27 import main as problem27
+from problem_28 import main as problem28
+from problem_29 import main as problem29
+from problem_30 import main as problem30
 
 problem1()
 problem2()
@@ -45,3 +52,10 @@ problem20()
 problem21()
 problem22()
 problem23()
+problem24()
+problem25()
+problem26()
+problem27()
+problem28()
+problem29()
+problem30()

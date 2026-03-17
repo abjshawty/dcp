@@ -24,4 +24,11 @@ func main() {
 	problem21()
 	problem22()
 	problem23()
+	problem24()
+	problem25()
+	problem26()
+	problem27()
+	problem28()
+	problem29()
+	problem30()
 }

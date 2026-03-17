@@ -21,6 +21,13 @@ mod problem_20;
 mod problem_21;
 mod problem_22;
 mod problem_23;
+mod problem_24;
+mod problem_25;
+mod problem_26;
+mod problem_27;
+mod problem_28;
+mod problem_29;
+mod problem_30;
 
 fn main() {
     problem_1::problem1();
@@ -46,4 +53,11 @@ fn main() {
     problem_21::problem21();
     problem_22::problem22();
     problem_23::problem23();
+    problem_24::problem24();
+    problem_25::problem25();
+    problem_26::problem26();
+    problem_27::problem27();
+    problem_28::problem28();
+    problem_29::problem29();
+    problem_30::problem30();
 }

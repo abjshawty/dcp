@@ -46,6 +46,13 @@ Each folder is self-contained. Every problem is in its own file (e.g. `problem_7
 | 21 | Easy       | Snapchat   | Minimum Number of Classrooms           | `algo/problem_21.md`         |
 | 22 | Medium     | Microsoft  | Word Break Reconstruction              | `algo/problem_22.md`         |
 | 23 | Easy       | Google     | Shortest Path in Boolean Matrix        | `algo/problem_23.md`         |
+| 24 | Medium     | Google     | Locking Binary Tree                    | `algo/problem_24.md`         |
+| 25 | Hard       | Facebook   | Regular Expression Matching            | `algo/problem_25.md`         |
+| 26 | Medium     | Google     | Remove Kth Last from Linked List       | `algo/problem_26.md`         |
+| 27 | Easy       | Facebook   | Balanced Brackets                      | `algo/problem_27.md`         |
+| 28 | Medium     | Palantir   | Text Justification                     | `algo/problem_28.md`         |
+| 29 | Easy       | Amazon     | Run-Length Encoding                    | `algo/problem_29.md`         |
+| 30 | Medium     | Facebook   | Trapping Rain Water                    | `algo/problem_30.md`         |
 
 ---
 
