@@ -66,6 +66,53 @@ Each folder is self-contained. Every problem is in its own file (e.g. `problem_7
 | 41 | Medium     | Facebook   | Flight Itinerary (Eulerian Path)       | `algo/problem_41.md`         |
 | 42 | Hard       | Google     | Subset Sum                             | `algo/problem_42.md`         |
 | 43 | Easy       | Amazon     | Max Stack                              | `algo/problem_43.md`         |
+| 44 | Hard       | Google     | Count Inversions                       | `algo/problem_44.md`         |
+| 45 | Easy       | Two Sigma  | rand7 from rand5                       | `algo/problem_45.md`         |
+| 46 | Medium     | Amazon     | Longest Palindromic Substring          | `algo/problem_46.md`         |
+| 47 | Easy       | Facebook   | Max Stock Profit                       | `algo/problem_47.md`         |
+| 48 | Medium     | Google     | Reconstruct Tree from Pre/Inorder      | `algo/problem_48.md`         |
+| 49 | Medium     | Amazon     | Max Sum Contiguous Subarray            | `algo/problem_49.md`         |
+| 50 | Easy       | Microsoft  | Evaluate Arithmetic Expression Tree   | `algo/problem_50.md`         |
+| 51 | Easy       | Facebook   | Shuffle Deck (Fisher-Yates)            | `algo/problem_51.md`         |
+| 52 | Medium     | Google     | LRU Cache                              | `algo/problem_52.md`         |
+| 53 | Easy       | Apple      | Queue Using Two Stacks                 | `algo/problem_53.md`         |
+| 54 | Medium     | Microsoft  | Sudoku Solver                          | `algo/problem_54.md`         |
+| 55 | Easy       | Dropbox    | URL Shortener                          | `algo/problem_55.md`         |
+| 56 | Medium     | Google     | Graph k-Coloring                       | `algo/problem_56.md`         |
+| 57 | Medium     | Amazon     | Word Wrap                              | `algo/problem_57.md`         |
+| 58 | Medium     | Amazon     | Search in Rotated Sorted Array         | `algo/problem_58.md`         |
+| 59 | Medium     | Google     | File Syncing Algorithm                 | `algo/problem_59.md`         |
+| 60 | Medium     | Facebook   | Partition Multiset Into Equal Subsets  | `algo/problem_60.md`         |
+| 61 | Easy       | Google     | Fast Integer Exponentiation            | `algo/problem_61.md`         |
+| 62 | Medium     | Palantir   | Count Paths in Matrix                  | `algo/problem_62.md`         |
+| 63 | Medium     | Microsoft  | Word Search in 2D Matrix               | `algo/problem_63.md`         |
+| 64 | Hard       | Snapchat   | Knight's Tour Count                    | `algo/problem_64.md`         |
+| 65 | Medium     | Amazon     | Spiral Matrix                          | `algo/problem_65.md`         |
+| 66 | Medium     | Jane Street| Unbiased Coin from Biased Coin         | `algo/problem_66.md`         |
+| 67 | Hard       | Google     | LFU Cache                              | `algo/problem_67.md`         |
+| 68 | Medium     | Google     | Count Attacking Bishop Pairs           | `algo/problem_68.md`         |
+| 69 | Easy       | Facebook   | Largest Product of Three Integers      | `algo/problem_69.md`         |
+| 70 | Easy       | Microsoft  | Nth Perfect Number (Digit Sum 10)      | `algo/problem_70.md`         |
+| 71 | Easy       | Two Sigma  | rand5 from rand7                       | `algo/problem_71.md`         |
+| 72 | Hard       | Google     | Largest Value Path in Graph            | `algo/problem_72.md`         |
+| 73 | Easy       | Amazon     | Reverse Linked List                    | `algo/problem_73.md`         |
+| 74 | Medium     | Apple      | Count in N×N Multiplication Table      | `algo/problem_74.md`         |
+| 75 | Medium     | Microsoft  | Longest Increasing Subsequence         | `algo/problem_75.md`         |
+| 76 | Medium     | Google     | Min Columns to Remove for Lex Order    | `algo/problem_76.md`         |
+| 77 | Easy       | Facebook   | Merge Overlapping Intervals            | `algo/problem_77.md`         |
+| 78 | Medium     | Google     | Merge K Sorted Linked Lists            | `algo/problem_78.md`         |
+| 79 | Medium     | Quora      | Non-Decreasing Array by One Change     | `algo/problem_79.md`         |
+| 80 | Easy       | Google     | Find Deepest Node in Binary Tree       | `algo/problem_80.md`         |
+| 81 | Easy       | Google     | Phone Number Letter Combinations       | `algo/problem_81.md`         |
+| 82 | Medium     | Microsoft  | readN Using read7                      | `algo/problem_82.md`         |
+| 83 | Easy       | Uber       | Invert Binary Tree                     | `algo/problem_83.md`         |
+| 84 | Medium     | Amazon     | Count Islands in Matrix                | `algo/problem_84.md`         |
+| 85 | Easy       | Amazon     | Conditional Select Without Branches    | `algo/problem_85.md`         |
+| 86 | Medium     | Google     | Minimum Parentheses Removal            | `algo/problem_86.md`         |
+| 87 | Hard       | Uber       | Validate Spatial Rules                 | `algo/problem_87.md`         |
+| 88 | Medium     | Airbnb     | Integer Division Without /, *, %       | `algo/problem_88.md`         |
+| 89 | Medium     | LinkedIn   | Validate Binary Search Tree            | `algo/problem_89.md`         |
+| 90 | Easy       | Google     | Random Number Excluding List           | `algo/problem_90.md`         |
 
 ---
 

@@ -524,3 +524,332 @@ Implement a stack that has the following methods:
 - `max()`, which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
 
 Each method should run in constant time.
+
+## Problem 44 - Medium (Google)
+
+We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i] > A[j]` but `i < j`. That is, a smaller element appears after a larger element.
+
+Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
+
+You may assume each element in the array is distinct.
+
+For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+
+## Problem 45 - Easy (Two Sigma)
+
+Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+
+## Problem 46 - Hard (Amazon)
+
+Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+
+## Problem 47 - Easy (Facebook)
+
+Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
+For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+## Problem 48 - Medium (Google)
+
+Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
+
+For example, given the following preorder traversal: [a, b, d, e, c, f, g] and the following inorder traversal: [d, b, e, a, f, c, g], you should return the following tree:
+
+```
+    a
+   / \
+  b   c
+ / \ / \
+d  e f  g
+```
+
+## Problem 49 - Medium (Amazon)
+
+Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+
+For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
+
+Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
+
+Do this in O(N) time.
+
+## Problem 50 - Easy (Microsoft)
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree: `* -> (+ -> (3, 2), + -> (4, 5))`, you should return 45, as it is (3 + 2) * (4 + 5).
+
+## Problem 51 - Medium (Facebook)
+
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+
+## Problem 52 - Hard (Google)
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
+
+- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least recently used item.
+- `get(key)`: gets the value at `key`. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+## Problem 53 - Medium (Apple)
+
+Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it.
+
+## Problem 54 - Hard (Dropbox)
+
+Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+Implement an efficient sudoku solver.
+
+## Problem 55 - Easy (Microsoft)
+
+Implement a URL shortener with the following methods:
+
+- `shorten(url)`, which shortens the url into a six-character alphanumeric string, such as `zLg6wl`.
+- `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+
+## Problem 56 - Medium (Google)
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+## Problem 57 - Medium (Amazon)
+
+Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
+
+You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
+
+For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"].
+
+## Problem 58 - Medium (Amazon)
+
+A sorted array of integers was rotated an unknown number of times.
+
+Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
+
+For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
+
+You can assume all the integers in the array are unique.
+
+## Problem 59 - Hard (Google)
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+## Problem 60 - Medium (Google)
+
+Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
+
+For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, both of which add to 55.
+
+Given the multiset {15, 5, 20, 10, 35}, it would return false.
+
+## Problem 61 - Medium (Google)
+
+Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, `pow(2, 10)` should return 1024.
+
+## Problem 62 - Medium (Facebook)
+
+There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
+
+For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right: Right then down, or down then right. Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+
+## Problem 63 - Easy (Microsoft)
+
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+For example, given the matrix `[['F','A','C','I'],['O','B','Q','P'],['A','N','O','B'],['M','A','S','S']]` and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+## Problem 64 - Hard (Google)
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
+## Problem 65 - Easy (Amazon)
+
+Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+
+For example, given the matrix `[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20]]`, you should print out: 1, 2, 3, 4, 5, 10, 15, 20, 19, 18, 17, 16, 11, 6, 7, 8, 9, 14, 13, 12.
+
+## Problem 66 - Medium (Square)
+
+Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
+
+Write a function to simulate an unbiased coin toss.
+
+## Problem 67 - Hard (Google)
+
+Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
+
+- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
+- `get(key)`: gets the value at `key`. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+## Problem 68 - Medium (Google)
+
+On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
+
+You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
+
+For example, given M = 5 and bishops at (0,0), (1,2), (2,2), (4,0), you should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+
+## Problem 69 - Easy (Facebook)
+
+Given a list of integers, return the largest product that can be made by multiplying any three integers.
+
+For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
+
+You can assume the list has at least three integers.
+
+## Problem 70 - Easy (Microsoft)
+
+A number is considered perfect if its digits sum up to exactly 10.
+
+Given a positive integer `n`, return the `n`-th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28.
+
+## Problem 71 - Easy (Two Sigma)
+
+Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
+
+## Problem 72 - Hard (Google)
+
+In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
+
+Given a graph with `n` nodes and `m` directed edges, return the largest value path of the graph. If the largest value is infinite, then return null.
+
+The graph is represented with a string and an edge list. The `i`-th character represents the uppercase letter of the `i`-th node. Each tuple in the edge list `(i, j)` means there is a directed edge from the `i`-th node to the `j`-th node. Self-edges are possible, as well as multi-edges.
+
+## Problem 73 - Easy (Google)
+
+Given the head of a singly linked list, reverse it in-place.
+
+## Problem 74 - Medium (Apple)
+
+Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the `i`-th row and `j`-th column is `(i + 1) * (j + 1)` (if 0-indexed) or `i * j` (if 1-indexed).
+
+Given integers N and X, write a function that returns the number of times X appears as a value in an N by N multiplication table.
+
+For example, given N = 6 and X = 12, you should return 4.
+
+## Problem 75 - Hard (Microsoft)
+
+Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
+
+For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
+
+## Problem 76 - Medium (Google)
+
+You are given an N by M 2D matrix of lowercase letters. Determine the minimum number of columns that can be removed to ensure that each row is ordered from top to bottom lexicographically. That is, the letter at each column is lexicographically later as you go down each row.
+
+For example, given `cba / daf / ghi`, you should return 1, since removing the second column gives `ca / df / gi` which is ordered.
+
+## Problem 77 - Easy (Snapchat)
+
+Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
+
+The input list is not necessarily ordered in any way.
+
+For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+
+## Problem 78 - Medium (Google)
+
+Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+
+## Problem 79 - Medium (Facebook)
+
+Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most 1 element.
+
+For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
+
+Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+
+## Problem 80 - Easy (Google)
+
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+
+```
+    a
+   / \
+  b   c
+ /
+d
+```
+
+## Problem 81 - Easy (Yelp)
+
+Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
+
+For example if {"2": ["a","b","c"], "3": ["d","e","f"], ...} then "23" should return ["ad","ae","af","bd","be","bf","cd","ce","cf"].
+
+## Problem 82 - Easy (Microsoft)
+
+Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
+
+For example, given a file with the content "Hello world", three read7() returns "Hello w", "orld" and then "".
+
+## Problem 83 - Medium (Google)
+
+Invert a binary tree.
+
+For example, given the following tree: `a -> (b -> (d, e), c -> (f, nil))`, it should become `a -> (c -> (nil, f), b -> (e, d))`.
+
+## Problem 84 - Medium (Amazon)
+
+Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
+
+For example, this matrix has 4 islands:
+```
+1 0 0 0 0
+0 0 1 1 0
+0 1 1 0 0
+0 0 0 0 0
+1 1 0 0 1
+1 1 0 0 1
+```
+
+## Problem 85 - Medium (Facebook)
+
+Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
+
+## Problem 86 - Medium (Google)
+
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+
+For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+## Problem 87 - Hard (Uber)
+
+A rule looks like this: `A NE B` which means point A is located northeast of point B.
+
+Given a list of rules, check if the sum of the rules validate. For example, `A N B / B NE C / C N A` does not validate, since A cannot be both north and south of C. But `A NW B / A N B` is considered valid.
+
+## Problem 88 - Medium (ContextLogic)
+
+Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+
+## Problem 89 - Medium (LinkedIn)
+
+Determine whether a tree is a valid binary search tree.
+
+A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right` child must be greater than or equal to the root.
+
+## Problem 90 - Medium (Google)
+
+Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
