@@ -6,18 +6,27 @@ class Node:
 
 
 def serialize(root):
+    # base case: represent null nodes with a sentinel
     if root is None:
         return '#'
+    # pre-order: root, left subtree, right subtree
     return f'{root.val},{serialize(root.left)},{serialize(root.right)}'
 
 def deserialize(s):
-    pass
+    # split the serialized string into a token stream
+    tokens = iter(s.split(','))
+
+    def build():
+        val = next(tokens)
+        if val == '#':  # sentinel marks a null node
+            return None
+        # reconstruct pre-order: node first, then left and right subtrees
+        return Node(val, build(), build())
+
+    return build()
 
 def main():
+    print("Problem 3:")
     node = Node('root', Node('left', Node('left.left')), Node('right'))
     assert deserialize(serialize(node)).left.left.val == 'left.left'
-
-if __name__ == '__main__':
-    # main()
-    node = Node('root', Node('left', Node('left.left')), Node('right'))
-    print(serialize(node))
+    print("All Tests Passed")
